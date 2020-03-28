@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>CSStratBoard</title>
+		<link rel="icon" href="favicon.ico"/>
+		<link type = "text/css" rel = "stylesheet" href="stylesheet.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--FONTS-->
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    </head>
+    <body>
+        <header>
+        	<img src = "logo.png"/>
+        	<b><p>CSStratBoard.com</p></b>
+        <p class="colorindicator">Current color:</p>
+        <p class="currentmap">Current map:</p>
+        <select class="maplist">
+        	<option value="dust2">dust2</option>
+        	<option value="cache">cache</option>
+        	<option value="mirage">mirage</option>
+        	<option value="train">train</option>
+        	<option value="cobblestone">cobblestone</option>
+        	<option value="inferno">inferno</option>
+        	<option value="nuke">nuke</option>
+        	<option value="overpass">overpass</option>
+        </select>
+        </header>
+        <canvas id="myCanvas" width = "960" height = "592" oncontextmenu="return false;"></canvas>
+        <footer>TEST</footer>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+</html>
